@@ -27,8 +27,8 @@ export class Jokes extends Component {
           <DadJoke joke={this.state.joke} />
         </p>
         <small className="github-link">
-          Made with <i className="fa fa-heart"></i> by&nbsp;
-          <a href="https://github.com/sithembinkhosi-atanase" target="_blank" rel="noopener noreferrer">Sithembinkhosi Siwo Atanase</a>, <a href="https://github.com/SamuelEli" target="_blank" rel="noopener noreferrer">Samuel Eli</a>, <a href="https://github.com/DamianoSilverhand" target="_blank" rel="noopener noreferrer">Damiano Chintala</a>
+          Made with <i className="fa fa-heart fa-2x"></i> by&nbsp;
+          <a href="https://github.com/sithembinkhosi-atanase" target="_blank" rel="noopener noreferrer">Sithembinkhosi Siwo Atanase</a>, <a href="https://github.com/SamuelEli" target="_blank" rel="noopener noreferrer">Samuel Eli</a> and <a href="https://github.com/DamianoSilverhand" target="_blank" rel="noopener noreferrer">Damiano Chintala</a>
         </small>
       </div>
     );
