@@ -2,6 +2,7 @@
   "name": "dasasi-notetaker",
   "version": "0.1.0",
   "private": true,
+   "homepage" : "http://damianosilverhand.github.io/DaSaSi-Notetaker",
   "dependencies": {
     "bcrypt": "^2.0.1",
     "node-sass-chokidar": "^1.2.2",
