@@ -76,7 +76,9 @@ class App extends React.Component {
              <div className="jokes">
                <Jokes/>
              </div>
-
+             <div className="bottom">
+             <Footer/>
+             </div>
         </div>
    )
  }
@@ -195,6 +197,19 @@ class Note extends React.Component {
             </div>
    )
  }
+}
+
+class Footer extends React.Component{
+
+	render(){
+		return(
+			<div className="footer">
+			<footer>
+			<p>&copy; 2020 <a href="https://damianochintala.me/"> Damiano Chintala</a> </p>
+			</footer>
+			</div>
+		)
+	}
 }
 
 

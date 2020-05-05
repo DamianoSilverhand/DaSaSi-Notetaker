@@ -2,9 +2,9 @@
   "name": "dasasi-notetaker",
   "version": "0.1.0",
   "private": true,
-   "homepage" : "http://damianosilverhand.github.io/DaSaSi-Notetaker",
+  "homepage": "http://damianosilverhand.github.io/DaSaSi-Notetaker",
   "dependencies": {
-    "bcrypt": "^2.0.1",
+    "bcryptjs": "^2.0.1",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.2",
     "react": "^16.3.2",
@@ -19,6 +19,7 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "onandroid": "node node_modules/react-scripts/scripts/start.js"
   }
 }

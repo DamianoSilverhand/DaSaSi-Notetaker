@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito|Ranga");
 body {
   font-family: 'Nunito', serif; }
-
+a{
+	color:lime;
+}
 .header, .footer {
   background-color: #4052f6;
   color: #fff;
@@ -11,11 +13,17 @@ body {
   height: 50px;
   padding: 5px 0 0 10px;
   margin-bottom: 2vh; }
+  
+.bottom{
+margin-top: 100%;
+
+}
 
 .footer {
-  height: 40px;
+  height: 40px;s
   padding: 5px 0 0 10px;
-  margin-top: 3vh; }
+  margin-top: 3vh;
+  }
   .footer .about {
     margin: 5px auto 0; }
 
