@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start-js": "react-scripts start",
-    "node-sass-chokidar ./src/App.scss ./build/index.css",
+    "build-css" "node-sass-chokidar ./src/App.scss ./build/index.css",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
