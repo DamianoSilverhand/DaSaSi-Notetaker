@@ -5,22 +5,23 @@
   "homepage": "http://damianosilverhand.github.io/DaSaSi-Notetaker",
   "dependencies": {
     "bcryptjs": "^2.0.1",
-    "node-sass-chokidar": "^1.2.2",
+    "chokidar": "^3.4.0",
+    "node-sass-chokidar": "^1.4.0",
     "npm-run-all": "^4.1.2",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react-dom": "^16.13.1",
     "react-scripts": "1.1.4"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
-    "node-sass": "4.9.0"
+    "node-sass": "^4.14.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
