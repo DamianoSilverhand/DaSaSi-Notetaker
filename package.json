@@ -22,7 +22,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/styles/sass -o src/styles/css --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "npm-run-all -p watch-css start-js",
+   "start": "NODE_PATH=./src npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
